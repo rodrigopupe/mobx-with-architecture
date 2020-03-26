@@ -17,7 +17,8 @@ This is a simple Flutter signup example that demonstrates an architecture patter
 
 * Improve form field validations;
 * Include a password confirmation (and validation);
-* Integration with some REST API.
+* Integration with some REST API;
+* Refactoring to implement dependency inversion on the repository.
 
 ## ScreenShots
 
