@@ -1,16 +1,24 @@
-# mobx_with_architecture
+# mobx-with-architecture
 
-A new Flutter project.
+This is a simple Flutter signup example that demonstrates an architecture pattern for mobile apps.
 
-## Getting Started
+*Dependencies: MobX (including dev dependencies **mobx_codegen** and **build_runner**) and Provider.*
 
-This project is a starting point for a Flutter application.
+## Arhitecture components
 
-A few resources to get you started if this is your first Flutter project:
+* View (pages);
+* ViewModel;
+* Controller;
+* Repository;
+* Model;
+* Store (for a global state management)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## TODOs
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Improve form field validations;
+* Include a password confirmation (and validation);
+* Integration with some REST API.
+
+## ScreenShots
+
+<img src="readme/Screenshot_1.png" width="200" height="400" /> <img src="readme/Screenshot_2.png" width="200" height="400" /> <img src="readme/Screenshot_3.png" width="200" height="400" /> <img src="readme/Screenshot_4.png" width="200" height="400" />
