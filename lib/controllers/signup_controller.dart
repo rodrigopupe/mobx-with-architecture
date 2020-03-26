@@ -3,15 +3,15 @@ import 'package:mobx_with_architecture/repositories/account_repository.dart';
 import 'package:mobx_with_architecture/viewmodels/signup_viewmodel.dart';
 
 class SignUpController {
-  AccountRepository repository;
+  AccountRepository _repository;
 
   SignUpController() {
-    repository = AccountRepository();
+    _repository = AccountRepository();
   }
 
   Future<UserModel> create(SignUpViewModel viewModel) async {
     viewModel.busy = true;
-    var user = await repository.createAccount(viewModel);
+    var user = await _repository.createAccount(viewModel);
 
     viewModel.busy = false;
     return user;
